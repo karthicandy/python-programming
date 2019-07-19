@@ -1,10 +1,10 @@
 num=int(input())
-l=[]
+lis=[]
 for k in range(num):
 	c=input()
-l.append(c)
+	lis.append(c)
 kar=[]
-for k in zip(*l):
+for k in zip(*lis):
 	if(k.count(k[0])==len(k)):
 		kar.append(k[0])
 	else:
