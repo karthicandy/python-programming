@@ -1,2 +1,3 @@
-x=input().split()
-print(max(x))
+x=list(map(int,input().split()))
+x.sort()
+print(x[-1])
