@@ -1,2 +1,3 @@
 x=input().split()
-print(max(x))
+if len(x)==10:
+    print(max(x))
