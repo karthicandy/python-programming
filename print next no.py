@@ -1,3 +1,3 @@
-x=int(input())
-y=x+1
-print(y)
+k1=int(input())
+k2=k1+1
+print(k2)
