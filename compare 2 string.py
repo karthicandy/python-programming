@@ -4,4 +4,4 @@ if (len(x)<len(y)):
 elif(len(x)>len(y)):
     print(x)
 else:
-    print(x)
+    print(y or x)
