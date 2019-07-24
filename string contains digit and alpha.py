@@ -7,6 +7,6 @@ for z in k1:
   elif z.isdigit():
     y+=1
 if x>1 and y>1:
-  print("yes")
+  print("Yes")
 else:
-  print("no")
+  print("No")
